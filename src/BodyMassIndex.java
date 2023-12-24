@@ -1,6 +1,6 @@
 public class BodyMassIndex {
-    public int raschot(int a, double b) {
-        double calcindex = a / (b * b);
+    public int calculate(int weightKG, double heightMetr) {
+        double calcindex = weightKG / (heightMetr * heightMetr);
         return (int) calcindex;
     }
 }
